@@ -1,3 +1,9 @@
 html {
   font-family: "Open Sans", sans-serif;
 }
+
+body {
+  background-image: url(../images/concrete_seamless.png);
+  margin: 0;
+  padding: auto;
+}
