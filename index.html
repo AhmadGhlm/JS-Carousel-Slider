@@ -3,23 +3,24 @@
 <head>
     <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/403e98b532.js" crossorigin="anonymous"></script>
-    <title>JavaScript</title>
+    <title>Sliders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
     <header>
         <h1>Sliders, les mondes parallèles ;-)</h1>
-        <button id="plus"><i class="fas fa-arrow-down"></i>Barre d'outils</button>
+        <a href="#" id="toolbar-toggle"><i class="fas fa-arrow-down"></i>Barre d'outils</a>
     </header>
     <main>
-        <div class="bouton-wrapper">
-            <button id="next"><i class="fas fa-angle-double-left"></i></button>
-            <button id="pause"><i class="fas fa-pause"></i></button>
-            <button id="play"><i class="fas fa-play"></i></button>
-            <button id="back"><i class="fas fa-angle-double-right"></i></button>
-            <button id="random"><i class="fas fa-random"></i></button>
-        </div>
+        <nav class="toolbar">
+            <button id="slider-next"><i class="fas fa-angle-double-left"></i></button>
+            <!--<button id="pause"><i class="fas fa-pause"></i></button> -->
+            <button id="slider-toggle"><i class="fas fa-play"></i></button>
+            <button id="slider-previous"><i class="fas fa-angle-double-right"></i></button>
+            <button id="slider-random"><i class="fas fa-random"></i></button>
+        </nav>
 
         <figure>
             <img src="./images/1.jpg" alt="image1" class="active">
