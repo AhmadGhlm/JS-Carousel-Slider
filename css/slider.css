@@ -8,6 +8,22 @@ body {
   padding: auto;
 }
 
+h1 {
+  color: #1f568a;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #2b8782;
+}
+
+h1,
+a {
+  padding-top: 3%;
+  margin: 0 2%;
+}
+
 .clear {
   clear: both;
 }
@@ -22,6 +38,17 @@ img {
   left: -70px;
   width: 640px;
   height: 390px;
+}
+
+.toolbar {
+  text-align: right;
+  padding: 5% 0%;
+  padding-right: 15%;
+}
+
+main figcaption {
+  padding: 4% 23%;
+  text-align: right;
 }
 
 figcaption {
