@@ -8,8 +8,8 @@ body {
   padding: auto;
 }
 
-.hidden {
-  display: none;
+.clear {
+  clear: both;
 }
 
 img {
@@ -22,4 +22,11 @@ img {
   left: -70px;
   width: 640px;
   height: 390px;
+}
+
+figcaption {
+  font-size: 2em;
+  transform: rotateZ(-10deg);
+  color: #2b8782;
+  margin: 0px 0px 0px 350px;
 }
