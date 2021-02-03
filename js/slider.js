@@ -33,8 +33,6 @@ let previousI = 0;
 /*************************************************************************************************/
 
 function slideAuto(){
-	
-	
     pic.setAttribute("src", slider[i]);
 	console.log(pic);     
 	console.log(i);
@@ -48,7 +46,6 @@ function slideAuto(){
 function toggleSlide() {
 	let buttonPause = document.getElementById("slider-toggle");
 	buttonPause.addEventListener("click", function(){
-		
 		if(bool == true){
 	 		window.clearInterval(toggle);
 	 		console.log("pause");
