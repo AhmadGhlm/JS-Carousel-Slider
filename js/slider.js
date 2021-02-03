@@ -3,8 +3,28 @@
 /*************************************************************************************************/
 /* ****************************************** DONNEES ****************************************** */
 /*************************************************************************************************/
+let slider =
+    "../images/1.jpg"
+    "../images/2.jpg",
+	"../images/3.jpg",
+	"../images/4.jpg",
+	"../images/5.jpg",
+	"../images/6.jpg";
 
+let picTitle =
+	"Street Art 0"
+	"Fast Road 1",
+	"Colorful Building 2",
+	"Light Building 3",
+	"Night City 4",
+    "Paris 5";
 
+let i=1;
+let bool = true;
+let photo = document.querySelector("figure").children[0];
+let pName = document.querySelector("figure").children[2]; 
+let toggle = setInterval(slideAuto,2000);
+let previousI = 0;
 
 /*************************************************************************************************/
 /* ***************************************** FONCTIONS ***************************************** */
